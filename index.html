@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Gandr Collage</title>
+    
+    <style>
+        body {
+            /* Remove default browser padding and margin */
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Optional: light gray background */
+        }
+
+        .responsive-image-container {
+            width: 100%;
+        }
+
+        .responsive-image-container img {
+            /* Tells the image to be a maximum of 100% of its container's width.
+              It will shrink to fit on small screens.
+            */
+            max-width: 100%;
+
+            /* Maintains the image's aspect ratio as it scales */
+            height: auto; 
+
+            /* Ensures the image is treated as a block and removes extra space below it */
+            display: block; 
+            
+            /* Optional: Centers the image if the screen is wider than the image */
+            margin: 0 auto; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="responsive-image-container">
+        <img src="gandr-collage.jpg" alt="A collage of Gandr">
+    </div>
+
+</body>
+</html>
